@@ -34,7 +34,34 @@
             padding: 16px;
             border-radius: 4px;
         }
+
+        .display {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1.2em;
+        }
+
+        .keyboard {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 16px;
+            font-size: 1.2em;
+            margin-top: 16px;
+        }
+
+        button {
+            border: 0;
+            border-radius: 4px;
+            background-color: #efefef;
+            padding: 8px;
+            font-weight: bold;
+            cursor: pointer;
+        }
     </style>
+
+    <title>Calculadora - React Professional</title>
 </head>
 <body>
     <div id="root"></div>
