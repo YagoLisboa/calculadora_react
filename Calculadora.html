@@ -74,9 +74,11 @@
         const Header = () => <div class="header">Calculadora</div>;
             
         const Calculator = () => {
-            const array = React.useState("");
-            const display = array[0];
-            const setDisplay = array[1];
+            // const array = React.useState("");
+            // const display = array[0];
+            // const setDisplay = array[1];
+
+            const [display, setDisplay] = React.useState("");
             
             return(
                 <div class="calculator">
